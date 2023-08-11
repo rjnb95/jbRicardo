@@ -10,4 +10,14 @@ for i in range(1,nonbNot+1):
 
 mwayen = somToutNotYo/nonbNot
 
-print("Bonjour, mwayen elev sa se : "+str(mwayen)+" sou 100.")
+if mwayen >= 90 :
+    print("Ou fe : A")
+elif mwayen >= 80 :
+    print("Ou fe : B")
+elif mwayen >= 70 :
+    print("Ou fe : C")
+elif mwayen >= 60 :
+    print("Ou fe : D")
+else :
+    mwayen < 60
+    print("Ou fe : F")
